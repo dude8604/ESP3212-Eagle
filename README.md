@@ -9,3 +9,15 @@ I had to improvise for the pad sizes, so please let me know if it should be chan
 If you've tested this and it works (or doesn't work) please tell me so I can post an update.
 
 I also made a breakout board for it.
+
+**Eagle Symbol for ESP3212**
+
+![Eagle Symbol](ESP3212%20Eagle%20Symbol.png)
+
+**Eagle Package for ESP3212**
+
+![Eagle Package](ESP3212%20Eagle%20Package.png)
+
+**Breakout Board for ESP3212**
+
+![Breakout Board for ESP3212](ESP3212%20Breakout%20Board.png)
