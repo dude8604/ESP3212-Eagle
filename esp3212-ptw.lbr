@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -158,6 +158,62 @@
 <text x="3.5" y="-1" size="1.27" layer="21" rot="R90" align="center-right">IO12</text>
 <text x="2" y="-1" size="1.27" layer="21" rot="R90" align="center-right">IO14</text>
 </package>
+<package name="ESP3212_NOPINLABELS">
+<wire x1="0" y1="0" x2="16" y2="0" width="0.127" layer="21"/>
+<wire x1="16" y1="0" x2="16" y2="24" width="0.127" layer="21"/>
+<wire x1="16" y1="24" x2="0" y2="24" width="0.127" layer="21"/>
+<wire x1="0" y1="24" x2="0" y2="0" width="0.127" layer="21"/>
+<smd name="IO27" x="0.3" y="1.5" dx="1.2" dy="1.1" layer="1"/>
+<smd name="IO26" x="0.3" y="3" dx="1.2" dy="1.1" layer="1"/>
+<smd name="IO25" x="0.3" y="4.5" dx="1.2" dy="1.1" layer="1"/>
+<smd name="IO33" x="0.3" y="6" dx="1.2" dy="1.1" layer="1"/>
+<smd name="IO32" x="0.3" y="7.5" dx="1.2" dy="1.1" layer="1"/>
+<smd name="IO35" x="0.3" y="9" dx="1.2" dy="1.1" layer="1"/>
+<smd name="IO34" x="0.3" y="10.5" dx="1.2" dy="1.1" layer="1"/>
+<smd name="SVN" x="0.3" y="12" dx="1.2" dy="1.1" layer="1"/>
+<smd name="SVP" x="0.3" y="13.5" dx="1.2" dy="1.1" layer="1"/>
+<smd name="EN" x="0.3" y="15" dx="1.2" dy="1.1" layer="1"/>
+<smd name="GND_L" x="0.3" y="16.5" dx="1.2" dy="1.1" layer="1"/>
+<smd name="3V3" x="15.7" y="1.5" dx="1.2" dy="1.1" layer="1"/>
+<smd name="IO17" x="15.7" y="3" dx="1.2" dy="1.1" layer="1"/>
+<smd name="IO5" x="15.7" y="4.5" dx="1.2" dy="1.1" layer="1"/>
+<smd name="IO18" x="15.7" y="6" dx="1.2" dy="1.1" layer="1"/>
+<smd name="IO23" x="15.7" y="7.5" dx="1.2" dy="1.1" layer="1"/>
+<smd name="IO19" x="15.7" y="9" dx="1.2" dy="1.1" layer="1"/>
+<smd name="IO22" x="15.7" y="10.5" dx="1.2" dy="1.1" layer="1"/>
+<smd name="U0RX" x="15.7" y="12" dx="1.2" dy="1.1" layer="1"/>
+<smd name="U0TX" x="15.7" y="13.5" dx="1.2" dy="1.1" layer="1"/>
+<smd name="IO21" x="15.7" y="15" dx="1.2" dy="1.1" layer="1"/>
+<smd name="GND_R" x="15.7" y="16.5" dx="1.2" dy="1.1" layer="1"/>
+<smd name="IO14" x="2" y="0.3" dx="1.2" dy="1.1" layer="1" rot="R90"/>
+<smd name="IO12" x="3.5" y="0.3" dx="1.2" dy="1.1" layer="1" rot="R90"/>
+<wire x1="0" y1="0" x2="16" y2="0" width="0.127" layer="21"/>
+<smd name="IO13" x="5" y="0.3" dx="1.2" dy="1.1" layer="1" rot="R90"/>
+<smd name="IO15" x="6.5" y="0.3" dx="1.2" dy="1.1" layer="1" rot="R90"/>
+<smd name="GND_B" x="8" y="0.3" dx="1.2" dy="1.1" layer="1" rot="R90"/>
+<smd name="IO2" x="9.5" y="0.3" dx="1.2" dy="1.1" layer="1" rot="R90"/>
+<smd name="IO0" x="11" y="0.3" dx="1.2" dy="1.1" layer="1" rot="R90"/>
+<smd name="IO4" x="12.5" y="0.3" dx="1.2" dy="1.1" layer="1" rot="R90"/>
+<smd name="IO16" x="14" y="0.3" dx="1.2" dy="1.1" layer="1" rot="R90"/>
+<rectangle x1="0" y1="18" x2="16" y2="24" layer="39"/>
+<rectangle x1="0" y1="18" x2="16" y2="24" layer="40"/>
+<wire x1="1" y1="19" x2="1" y2="23" width="0.8128" layer="21"/>
+<wire x1="1" y1="23" x2="3.5" y2="23" width="0.8128" layer="21"/>
+<wire x1="3.5" y1="23" x2="3.5" y2="20.5" width="0.8128" layer="21"/>
+<wire x1="3.5" y1="20.5" x2="6" y2="20.5" width="0.8128" layer="21"/>
+<wire x1="6" y1="20.5" x2="6" y2="23" width="0.8128" layer="21"/>
+<wire x1="6" y1="23" x2="8.5" y2="23" width="0.8128" layer="21"/>
+<wire x1="8.5" y1="23" x2="8.5" y2="20.5" width="0.8128" layer="21"/>
+<wire x1="8.5" y1="20.5" x2="11" y2="20.5" width="0.8128" layer="21"/>
+<wire x1="11" y1="20.5" x2="11" y2="23" width="0.8128" layer="21"/>
+<wire x1="11" y1="23" x2="13" y2="23" width="0.8128" layer="21"/>
+<wire x1="13" y1="23" x2="15" y2="23" width="0.8128" layer="21"/>
+<wire x1="15" y1="23" x2="15" y2="18.5" width="0.8128" layer="21"/>
+<wire x1="13" y1="23" x2="13" y2="18.5" width="0.8128" layer="21"/>
+<text x="8" y="9" size="2" layer="21" align="center">ESP3212</text>
+<text x="7.5" y="25.5" size="2" layer="25" align="center">&gt;NAME</text>
+<text x="8" y="-6" size="2" layer="27" align="center">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="ESP3212">
@@ -207,7 +263,45 @@
 <gate name="G$1" symbol="ESP3212" x="5.08" y="0"/>
 </gates>
 <devices>
-<device name="" package="ESP3212">
+<device name="LABELS" package="ESP3212">
+<connects>
+<connect gate="G$1" pin="3V3" pad="3V3"/>
+<connect gate="G$1" pin="EN" pad="EN"/>
+<connect gate="G$1" pin="GND_B" pad="GND_B"/>
+<connect gate="G$1" pin="GND_L" pad="GND_L"/>
+<connect gate="G$1" pin="GND_R" pad="GND_R"/>
+<connect gate="G$1" pin="IO0" pad="IO0"/>
+<connect gate="G$1" pin="IO12" pad="IO12"/>
+<connect gate="G$1" pin="IO13" pad="IO13"/>
+<connect gate="G$1" pin="IO14" pad="IO14"/>
+<connect gate="G$1" pin="IO15" pad="IO15"/>
+<connect gate="G$1" pin="IO16" pad="IO16"/>
+<connect gate="G$1" pin="IO17" pad="IO17"/>
+<connect gate="G$1" pin="IO18" pad="IO18"/>
+<connect gate="G$1" pin="IO19" pad="IO19"/>
+<connect gate="G$1" pin="IO2" pad="IO2"/>
+<connect gate="G$1" pin="IO21" pad="IO21"/>
+<connect gate="G$1" pin="IO22" pad="IO22"/>
+<connect gate="G$1" pin="IO23" pad="IO23"/>
+<connect gate="G$1" pin="IO25" pad="IO25"/>
+<connect gate="G$1" pin="IO26" pad="IO26"/>
+<connect gate="G$1" pin="IO27" pad="IO27"/>
+<connect gate="G$1" pin="IO32" pad="IO32"/>
+<connect gate="G$1" pin="IO33" pad="IO33"/>
+<connect gate="G$1" pin="IO34" pad="IO34"/>
+<connect gate="G$1" pin="IO35" pad="IO35"/>
+<connect gate="G$1" pin="IO4" pad="IO4"/>
+<connect gate="G$1" pin="IO5" pad="IO5"/>
+<connect gate="G$1" pin="SVN" pad="SVN"/>
+<connect gate="G$1" pin="SVP" pad="SVP"/>
+<connect gate="G$1" pin="UORX" pad="U0RX"/>
+<connect gate="G$1" pin="UOTX" pad="U0TX"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="NOLABELS" package="ESP3212_NOPINLABELS">
 <connects>
 <connect gate="G$1" pin="3V3" pad="3V3"/>
 <connect gate="G$1" pin="EN" pad="EN"/>
