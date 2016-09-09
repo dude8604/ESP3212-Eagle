@@ -8,4 +8,4 @@ I had to improvise for the pad sizes, so please let me know if it should be chan
 
 If you've tested this and it works (or doesn't work) please tell me so I can post an update.
 
-I'm planning on making a breakout board, so I'll be posting that soon.
+I also made a breakout board for it.
