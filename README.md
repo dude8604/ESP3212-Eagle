@@ -21,3 +21,5 @@ I also made a breakout board for it.
 **Breakout Board for ESP3212**
 
 ![Breakout Board for ESP3212](ESP3212%20Breakout%20Board.png)
+
+It's now available ![for sale here](https://www.tindie.com/products/dude8604/esp3212-breakout-board-alpha/).  I have them and I can ship within a day or two.
